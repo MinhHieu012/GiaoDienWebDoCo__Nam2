@@ -81,11 +81,13 @@ h2 {
     position: relative;
     text-align: center;
     top: 20px;
+    cursor: pointer;
 }
 
 .row {
     position: relative;
     top: 30px;
+    cursor: pointer;
 }
 
 .row h4 {
@@ -100,4 +102,19 @@ h2 {
 .tintuc {
     position: relative;
     top: 55px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.container .row .col-sm .card-body img {
+    margin-bottom: 15px;
+    width: 210px;
+    height: 140px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container .row .col-sm .card-body h4 {
+    font-size: 20px;
+    cursor: pointer;
 }
