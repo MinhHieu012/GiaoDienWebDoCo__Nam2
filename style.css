@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    height: 100vh;
+    place-items: center;
+}
+
+/*Logo*/
+
+
+/*Menu*/
+.navbar-collapse .navbar-nav .nav-item a {
+    color: #252323;
+    position: relative;
+    text-decoration: none;
+    font-size: 23px;
+    left: 150px;
+    margin-right: 50px;
+}
+
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: black;
+}
+  
+.navbar-collapse a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+.navbar-collapse .navbar-nav .nav-item a:hover::before {
+    transform-origin: center;
+    transform: scaleX(1);
+}
+
+/*Banner*/
+.carousel-inner .carousel-item img {
+    width: 1536px;
+    height: 500px;
+}
+
+.background-nen {
+    position: relative;
+    top: -55px;
+    left: 90px;
+    width: 900px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+}
+
+.background-nen h1 {
+    position: absolute;
+    text-align: inline-block;
+    top: 15%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+}
+
+.background-nen p {
+    position: absolute;
+    text-align: inline-block;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);;
+}
