@@ -75,3 +75,29 @@ body {
     left: 50%;
     transform: translateX(-50%);;
 }
+
+/*Các Cửa Hàng Uy Tín*/
+h2 {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.row {
+    position: relative;
+    top: 30px;
+}
+
+.row h4 {
+    color: black;
+}
+
+.row p {
+    font-size: 15px;
+}
+
+/*Tin Tức*/
+.tintuc {
+    position: relative;
+    top: 55px;
+}
